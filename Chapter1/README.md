@@ -33,3 +33,6 @@ Said another way this theorem shows there is no essential distinction between ha
 Use Curry-Howard to prove that (a<sup>b</sup>)<sup>c</sup> = a<sup>b × c</sup>. That is, provide a function of the type `(b -> c -> a) -> (b, c) -> a` and one of `((b, c) -> a) -> b -> c -> a`. Make sure they satisfy the equalities `to. from = id` and `from . to = id`
 
 ... mmm don't understand why (a<sup>b</sup>)<sup>c</sup> isn't equivalent to `c -> (b -> a)` or `c -> b -> a` and why a<sup>b × c</sup> isn't equivalent to `(b, c) -> a` but the question implies that (a<sup>b</sup>)<sup>c</sup> is equivalent to `(b -> c -> a) -> (b, c) -> a` and a<sup>b × c</sup> is equivalent to `((b, c) -> a) -> b -> c -> a` ???
+
+### Exercise 1.4-ii
+Give a proof of the exponent law that: a<sup>b</sub> × a<sup>c</sup> = a<sup>b + c</sup>
