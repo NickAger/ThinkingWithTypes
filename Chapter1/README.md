@@ -10,7 +10,7 @@ cardinality of function = `2^8` = `256`
 ### 1.4 Curry-Howard Isomorphism
 
 | Algebra  | Logic | Types |
-| ------------- | ------------- |
+| ------------- | ------------- | --- |
 | a + b  | a ⋁ b  | `Either a b` |
 | a × b  | a ⋀ b | `(a, b)`  |
 |  b<sup>a</sup> | a ⇒ b | `a -> b` |
