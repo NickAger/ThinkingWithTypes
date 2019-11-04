@@ -13,7 +13,7 @@ cardinality of function = `2^8` = `256`
 | ------------- | ------------- | --- |
 | a + b  | a ⋁ b  | `Either a b` |
 | a × b  | a ⋀ b | `(a, b)`  |
-|  b<sup>a</sup> | a ⇒ b | `a -> b` |
+|  b<sup>a</sup> | a ⟹ b | `a -> b` |
 | a = b | a ⟺ b | isomorphism |
 | 0 | ⊥ | Void |
 | 1 | ⊤ | () |
