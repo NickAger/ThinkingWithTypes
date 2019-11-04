@@ -17,3 +17,13 @@ cardinality of function = `2^8` = `256`
 | a = b | a ⟺ b | isomorphism |
 | 0 | ⊥ | Void |
 | 1 | ⊤ | () |
+
+> profound insight about our universe. It allows us to analyzze mathematically theorems through the lens of functional programming. What's better even "boring" mathematical theorems are interesting when expressed as types.
+
+Example:
+
+```
+maths: a<sup>1</sup> = a
+types: () -> a 
+
+```
