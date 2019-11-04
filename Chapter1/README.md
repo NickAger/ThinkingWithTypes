@@ -24,6 +24,7 @@ Example:
 
 ```
 maths: a<sup>1</sup> = a
-types: () -> a 
-
+types: () -> a  ⟺ a
 ```
+
+Said another way this theorem shows there is no essential distinction between having a value (`a`) and having a pure program that computes that value (`() -> a`)
