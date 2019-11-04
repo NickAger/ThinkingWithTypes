@@ -14,3 +14,6 @@ See also:
 
 > Pushing safety backwards - restricting the domain - makes things simpler; we take away the power to get it wrong.
 
+## Other developers working through the book
+* [Stephen](https://github.com/exeter-fp/thinking-with-types/tree/master/stephen)
+* [Martin](https://github.com/martinrist/haskell-sandbox/tree/master/src/ThinkingWithTypes)
