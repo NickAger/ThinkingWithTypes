@@ -28,3 +28,8 @@ types: () -> a  ⟺ a
 ```
 
 Said another way this theorem shows there is no essential distinction between having a value (`a`) and having a pure program that computes that value (`() -> a`)
+
+### Exercise 1.4-i
+Use Curry-Howard to prove that (a<sup>b</sup>)<sup>c</sup> = a<sup>b × c</sup>. That is, provide a function of the type `(b -> c -> a) -> (b, c) -> a` and one of `((b, c) -> a) -> b -> c -> a`. Make sure they satisfy the equalities `to. from = id` and `from . to = id`
+
+... mmm don't understand why 
