@@ -23,7 +23,7 @@ cardinality of function = `2^8` = `256`
 Example:
 
 ```
-maths: a<sup>1</sup> = a
+maths: a^1 = a
 types: () -> a  ⟺ a
 ```
 
