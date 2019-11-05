@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 03a4b5f7bfec3167e8d6b12592ab3edbe80a0c162960347910bd4cacde548ae9
+-- hash: b5b562dbe55d141bb35bfd4f8176dc043ee9519e8733302cfa167b3903c1016c
 
 name:           Chapter2
 version:        0.1.0.0
@@ -31,7 +31,7 @@ executable Test-exe
       Paths_Chapter2
   hs-source-dirs:
       src
-  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N -XDataKinds -XTypeOperators -XTypeFamilies -XKindSignatures
   build-depends:
       base >=4.7 && <5
     , transformers

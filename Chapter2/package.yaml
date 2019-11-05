@@ -29,6 +29,10 @@ executables:
     - -threaded
     - -rtsopts
     - -with-rtsopts=-N
+    - -XDataKinds
+    - -XTypeOperators
+    - -XTypeFamilies
+    - -XKindSignatures
     dependencies:
     - transformers
 
