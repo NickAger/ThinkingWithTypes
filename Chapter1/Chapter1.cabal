@@ -1,0 +1,20 @@
+name:                Chapter1
+version:             0.1.0.0
+-- synopsis:
+-- description:
+homepage:            https://github.com/nickager/Chapter1#readme
+license:             BSD3
+license-file:        LICENSE
+author:              Nick Ager
+maintainer:          nick.ager@gmail.com
+copyright:           Rocketbox Ltd
+category:            Web
+build-type:          Simple
+cabal-version:       >=1.10
+extra-source-files:  README.md
+
+executable Chapter1
+  hs-source-dirs:      src
+  main-is:             Exercises.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
