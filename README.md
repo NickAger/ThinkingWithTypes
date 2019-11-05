@@ -1,5 +1,5 @@
 # Thinking with Types
-Exercises and notes from the [book](https://leanpub.com/thinking-with-types) "Thinking with Types"
+Exercises and notes from the book ["Thinking with Types"](https://leanpub.com/thinking-with-types)
 
 ## See also
 
