@@ -1,9 +1,9 @@
 # Thinking with Types
 Exercises and notes from the [book](https://leanpub.com/thinking-with-types) "Thinking with Types"
 
-See also:
+## See also
 
-## Keep your types small
+### Keep your types small
 * [Matt Parsons: Keep your types small](https://www.parsonsmatt.org/2018/10/02/small_types.html)
 
 > When we restrict what we can do, it's easier to understand what we can do.
@@ -14,6 +14,6 @@ See also:
 
 > Pushing safety backwards - restricting the domain - makes things simpler; we take away the power to get it wrong.
 
-## Other developers working through the book
+### Other developers working through the book
 * [Stephen](https://github.com/exeter-fp/thinking-with-types/tree/master/stephen)
 * [Martin](https://github.com/martinrist/haskell-sandbox/tree/master/src/ThinkingWithTypes)
