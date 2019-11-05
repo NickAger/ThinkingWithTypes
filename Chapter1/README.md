@@ -82,13 +82,13 @@ types: () -> a  ⟺ a
 Said another way this theorem shows there is no essential distinction between having a value (`a`) and having a pure program that computes that value (`() -> a`)
 
 ### Exercise 1.4-i
-See Exercises.hs
+See [Exercises.hs](src/Exercises.hs)
 
 ### Exercise 1.4-ii
-See Exercises.hs
+See [Exercises.hs](src/Exercises.hs)
 
 ### Exercise 1.4-iii
-See Exercises.hs
+See [Exercises.hs](src/Exercises.hs)
 
 ### Canonical Representations
 * addition on the outside, multiplication on the inside.
