@@ -14,6 +14,9 @@ Exercises and notes from the book ["Thinking with Types"](https://leanpub.com/th
 
 > Pushing safety backwards - restricting the domain - makes things simpler; we take away the power to get it wrong.
 
+### A Type of programming
+* https://atypeofprogramming.com
+
 ### Other developers working through the book
 * [Stephen](https://github.com/exeter-fp/thinking-with-types/tree/master/stephen)
 * [Martin](https://github.com/martinrist/haskell-sandbox/tree/master/src/ThinkingWithTypes)
