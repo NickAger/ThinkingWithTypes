@@ -24,7 +24,7 @@ testT1 (T1 f) = f
 
 instance Functor T1 where
   fmap :: (a -> b) -> T1 a -> T1 b
-  fmap f (T1 f2) = T1 $ f . f2
+  fmap f (T1 fia) = T1 $ f . fia
 
 -- not possible to create T2
 -- can't create (b -> Int) from (a -> b) and (a -> Int)
@@ -34,16 +34,5 @@ instance Functor T1 where
 -- instance Functor T3 where
 --   fmap f (T3 f2) = T3 $ f . f2
 
-{-
-data FixMePls a =
-    FixMe
-  | Pls a
-  deriving (Eq, Show)
-  
-instance Functor FixMePls where
-  fmap _ FixMe = FixMe
-  fmap f (Pls a) = Pls (f a)
-
--}
 
 main = putStrLn "Chapter3"
