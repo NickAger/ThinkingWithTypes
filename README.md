@@ -4,7 +4,7 @@ Exercises and notes from the book ["Thinking with Types"](https://leanpub.com/th
 ## See also
 
 ### Keep your types small
-* [Matt Parsons: Keep your types small](https://www.parsonsmatt.org/2018/10/02/small_types.html)
+* [Matt Parsons: Keep your types small](https://www.parsonsmatt.org/2018/10/02/small_types.html) blog post
 
 > When we restrict what we can do, it's easier to understand what we can do.
 
@@ -13,6 +13,11 @@ Exercises and notes from the book ["Thinking with Types"](https://leanpub.com/th
 * backwards: the caller of the function is required to provide the correct inputs (eg `NonZero Int`, `NonEmpty [Int]`)
 
 > Pushing safety backwards - restricting the domain - makes things simpler; we take away the power to get it wrong.
+
+### Parse, don’t validate
+* [Alexis King: Parse, don’t validate](https://lexi-lambda.github.io/blog/2019/11/05/parse-don-t-validate/) blog post
+
+Similar to Matt Parson's post.
 
 ### A Type of programming
 * https://atypeofprogramming.com
