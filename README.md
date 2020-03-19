@@ -25,3 +25,6 @@ Similar to Matt Parson's post.
 ### Other developers working through the book
 * [Stephen](https://github.com/exeter-fp/thinking-with-types/tree/master/stephen)
 * [Martin](https://github.com/martinrist/haskell-sandbox/tree/master/src/ThinkingWithTypes)
+
+## Other links
+* [Notes for 'Thinking with Types: Type-level Programming in Haskell', Chapters 1–5](https://abhinavsarkar.net/posts/twt-notes-1/)
